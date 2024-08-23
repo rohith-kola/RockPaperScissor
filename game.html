@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rock Paper Scissors</title>
+        <link rel="stylesheet" href="game.css" />
+    </head>
+
+    <body>
+        <div class="container" >
+            <h3>Rock Paper Scissor Game</h3>
+            <h4 id="pre-play">Want to play with computer!!!</h4>
+            <button type="button" id="play" onclick=start(this)>Play</button>
+
+            <div id="choice">
+                <h4 id="select-choice"></h4>
+            </div>
+
+            <div class="gamebox">
+                <div id="human">
+                    <h4 id="choiceHuman"></h4>
+                    <img id="humanchoose" />
+                    
+                </div>
+                
+
+                <div class="computer">
+                    <h4 id="choiceComputer"></h4>
+                    <img id="computerChoose"/>
+                </div>
+            </div>
+
+            <div class="result">
+                <h4 id="showresult"></h4>
+            </div> 
+
+            <div class="points">
+                <h4 id="pointsTable"></h4>
+                <div id="humanPoint">
+                    <span id="humanpoints"></span>
+                    <span id="pointssep"></span>
+                </div>
+                <div id="Computer Point">
+                    <span id="computerpoints"></span>
+                </div>
+            </div>
+
+             
+        </div>
+
+        
+
+        <script src="game.js"></script>
+    </body>
+</html>
